@@ -73,10 +73,13 @@ gap: 16px;
 }
 
 .FourAlignedPics{
-    flex-flow: column wrap;
-    justify-content: center;
+    display: flex;
+    text-align: justify;
+    flex-direction: row;
+    justify-content: space-around;
     align-content: center;
-    color: #f5f5f5;
+    color: #1F2937;
+    background-color: #f5f5f5;
 
 }
 
@@ -96,4 +99,10 @@ gap: 16px;
 
 
 
+}
+
+
+.HeroFace{
+    display: flex;
+    flex-flow: column;
 }
